@@ -1,6 +1,6 @@
 {
     "addPath": "",
-    "cameraPara": "webar_test/arnft/data/camera_para.dat",
+    "cameraPara": "prubaarnft/data/camera_para.dat",
     "container": {
       "create": true,
       "containerName": "",
