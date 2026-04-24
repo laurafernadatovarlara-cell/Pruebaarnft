@@ -27,7 +27,7 @@
       "loadingMessage": "Loading, please wait..."
     },
     "stats": {
-      "createHtml": true
+      "createHtml": false
     },
     "oef": true
   }
