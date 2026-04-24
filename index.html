@@ -64,7 +64,7 @@
             // 
             //    ATENCIÓN: CAMBIAR AL NOMBRE DEL MARCADOR (JPG O PNG) ADECUADO 
             //
-            ARnft.init(width, height, [["Pruebaarnft/nft/unla_pasillo"]], [["unla_pasillo"]], "config.json", false)
+            ARnft.init(width, height, [["Pruebaarnft/nft/fer"]], [["fer"]], "config.json", false)
                 .then((nft) => {
                     document.addEventListener("containerEvent", function (ev) {
                         let canvas = document.getElementById("canvas");
@@ -104,7 +104,7 @@
                         //    ATENCIÓN: CAMBIAR LA ESCALA (3er parámetro, 200) AL VALOR QUE SE REQUIERA 
                         //
                         // Set object in scene, nft to find, scale, plane to draw video on, mostrar sólo en detección o no
-                        nftAddTJS.addVideo("arvideo", "unla_pasillo", 200, imgConfig, false);
+                        nftAddTJS.addVideo("arvideo", "fer", 200, imgConfig, false);
 
                         const tick = () => {
                             sceneThreejs.draw();
